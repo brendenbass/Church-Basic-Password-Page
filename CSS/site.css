@@ -15,3 +15,21 @@
     margin-right: 0rem;
     margin-left: 0rem;
 }
+
+@media (max-width: 2600px) {
+.scaleSVG {
+transform: scale(.3);
+}   
+}
+
+@media (max-width: 450px) {
+.scaleSVG {
+    transform: scale(.5);
+}
+}
+
+@media (min-width: 1000px) {
+.mTop {
+        margin-top: -2rem;
+    }
+}
